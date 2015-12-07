@@ -1,0 +1,467 @@
+/*!
+Theme Name: RED Starter Theme
+Theme URI: http://underscores.me/
+Author: RED Academy
+Author URI: http://www.redacademy.com
+Description: A WordPress starter theme for RED Academy students.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+RED Starter Theme is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Embedded Fonts
+# Typography
+# Elements
+# Forms
+# Navigation
+	## Links
+	## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+	## Posts and pages
+	## Asides
+	## Comments
+# Media
+	## Captions
+	## Galleries
+# Page Templates
+	## Front page
+--------------------------------------------------------------*/
+
+// Imported but not included in the stylesheet.
+
+@import "variables";
+@import "mixins";
+
+// CSS included in style.css.
+
+@import "normalize";
+@import "fonts";
+@import "typography";
+@import "elements";
+@import "forms";
+@import "navigation";
+@import "modules";
+@import "widgets";
+@import "content";
+@import "media";
+@import "page-templates";
+
+
+
+.name-logo ul{
+	list-style: none;
+	font-family: 'proxima_nova';
+	font-size: 20px;
+	color: #E9E9E9;
+	font-weight: lighter;
+
+}
+.dispnone{
+	text-decoration: none;
+}
+//desktop menu
+.main-navigation a{
+	color: #adadad;
+	font-size: 19.37px;
+	font-family: 'campton';
+	display: none;
+}
+//////mobile menu////////
+
+
+nav ul {
+  -webkit-font-smoothing:antialiased;
+  text-shadow:0 1px 0 #FFF;
+    background: #fff;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+nav li {
+    float: right;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-width: 25%;
+    text-decoration: none;
+
+}
+nav a {
+  // width: 100px;
+  border-radius: 8px;
+    background: #FF784C;
+    color: #E9E9E9;
+    display: block;
+    font: bold 16px/50px sans-serif;
+    padding: 0 25px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: all .25s ease;
+       -moz-transition: all .25s ease;
+        -ms-transition: all .25s ease;
+         -o-transition: all .25s ease;
+            transition: all .25s ease;
+}
+nav .dropdown:after {
+    font-family: FontAwesome;
+    content: ' \f107';
+}
+nav .dropdown:hover:after{
+	content:' \f106'
+}
+nav li:hover a {
+    background: #ccc;
+}
+nav li ul {
+    float: left;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 35px;
+    visibility: hidden;
+    z-index: 1;
+    -webkit-transition: all .25s ease;
+       -moz-transition: all .25s ease;
+        -ms-transition: all .25s ease;
+         -o-transition: all .25s ease;
+            transition: all .25s ease;
+}
+nav li:hover ul {
+    opacity: 1;
+    top: 50px;
+    visibility: visible;
+}
+nav li ul li {
+    float: none;
+    width: 100%;
+}
+nav li ul a:hover {
+    background: #FF784C;
+}
+
+.cf li{
+  margin-top: 10px;
+}
+
+/* Clearfix */
+
+.cf:after, .cf:before {
+    content:"";
+    display:table;
+}
+.cf:after {
+    clear:both;
+}
+.cf {
+    zoom:1;
+}
+
+//
+.planeDownloadlink {
+	list-style: none;
+}
+
+.footerContainer{
+	text-align: center;
+	font-family: 'campton';
+	color: #4a4a4a;
+	background-color: #D3FFF5;
+	padding-top: 15px;
+}
+.planeDownloadlink{
+	display: flex;
+
+}
+.planeDownloadlink a, .site-info a{
+	color: #4a4a4a;
+	font-family: 'proxima_nova';
+}
+
+.site-info a{
+	text-decoration: none;
+	margin-right: 30px;
+}
+//blue circle
+.blueCircle{
+	width: 360px;
+  	height:360px;
+  	background-color: #4398FB;
+  	border-radius:50%;
+  	margin: 0 auto;
+
+}
+
+//padding top
+.content-area{
+	padding-top: 50px;
+}
+
+//front page heading
+.frontPageH2{
+	font-family: 'proxima_nova';
+	font-size: 28px;
+	color: #E9E9E9;
+	font-weight: normal;
+	margin: 15px 0 0 0;
+	line-height: 15px;
+	text-align: center;
+	padding-top: 15px;
+}
+
+.frontPageP {
+	text-align: center;
+	font-family: 'campton';
+	margin: 0 70px;
+	padding-bottom: 200px;
+	color: #E9E9E9;
+}
+
+.caseStudies{
+	//text-align: center;
+	font-family: 'proxima_nova';
+	font-size: 2rem;
+	font-weight: lighter;
+	//background-color: #D3FFF5;
+	padding-bottom: 3rem;
+	color: #4398FB;
+	padding-left: 1rem;
+}
+
+.caseStudies a{
+	text-decoration: none;
+}
+.projects{
+	font-family: 'campton';
+	font-size: 2rem;
+	color: #4398FB;
+	padding-left: 1rem;
+}
+
+.seeAllButton{
+  font-family: 'campton';
+  border: 2px solid #FF784C ;
+  padding: 12px;
+  margin: 0 auto;
+  //height: 20px;
+  width:160px;
+  text-align: center;
+  border-radius: 8px;
+  color: #FF784C;
+  font-size: 1rem;
+}
+
+.imagesFrontPage{
+	margin: 0 5% 0 5%;
+
+}
+
+.imagesFrontPage img{
+	padding-bottom: 15px;
+}
+//project alignment
+ .parent-project img{
+//   display:flex;
+//   justify-content:center;
+//   align-items: center;
+	margin: 0 auto;
+	text-align: center;
+ }
+// .child-logo-title{
+	// padding-right: 100px;
+  // display:flex;
+  // justify-content: center;
+  //align-items: center;
+//}
+///////////////////
+
+.myToolKit{
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.learnMore{
+  border: 2px #adadad solid;
+  border-radius:5px;
+  height:38px;
+  width: 130px;
+  margin: 0 auto;
+  color: #adadad;
+  font-family: 'campton';
+  padding-bottom: 20px; 
+  text-align: center;
+  padding-top: 5px;
+}
+.learnMore a{
+	text-decoration: none;
+	color: #adadad;
+}
+
+.content-area{
+	padding-bottom: 50px;
+}
+
+.contactForm{
+	text-align: center;
+
+}
+//removing the heading that are showing up 
+.entry-header{
+	display: none;
+}
+//keeps the form fields width fixed
+
+.contactForm textarea, .contactForm input{
+	width: 53%;
+}
+
+//heading from contact form
+
+.letsChat{
+	font-family: 'proxima_nova';
+	font-size: 2rem;
+	color: #4398FB;
+	text-align: center;
+	font-weight: bold;
+}
+.partnership{
+	font-family: 'proxima_nova';
+	font-size: 1.1rem;
+	text-align: center;
+	padding: 0 10px;
+}
+
+
+.sendButton button{
+	background-color: white;
+	 border: 2px #EE6C4C solid;
+	 color: #EE6C4C;
+	 font-family: 'campton';
+	 font-size: 18px;
+
+}
+//about page
+
+.aboutPageText{
+	text-align: center;
+	line-height: 3rem;
+}
+
+.myPhilosopy{
+	font-family: 'campton';
+	color: #4398FB;
+}
+
+.aboutToolKit{
+	//background-color: #D3FFF5;
+	padding: 20px 0;
+}
+.aboutToolKit h2{
+	color: #4398FB;
+}
+
+.aboutPageText p{
+	font-family: 'proxima_nova';
+	margin: 0 20px;
+	padding-bottom: 25px;
+}
+
+.sksoap {
+	//text-align: center;
+	margin: 0 80px 0 0;
+	line-height: 2.5rem;
+}
+
+.sksoap ul li{
+	list-style: none;
+	text-align: center;
+	font-family: 'campton';
+	font-weight: lighter;
+}
+
+.skills, .software{
+	font-family: 'proxima_nova';
+	font-size: 2rem;
+	padding-top: 3rem;
+	padding-bottom: 1rem;
+}
+.aboutmepic img{
+	margin-top: 2rem;
+	text-align: center;
+}
+/////individual project page//////
+.proj-heading{
+	font-family: 'proxima_nova';
+	font-weight: bold;
+	font-size: 2.8rem;
+	color: white;
+}
+.proj-intro-text{
+	font-family: 'proxima_nova';
+	font-weight: normal;
+	font-size: 1.5rem;
+	color: white;
+}
+.proj-intro-page{
+	background-color: #4398FB;
+	padding: 1rem;
+}
+
+.theProject, .highlight-role h3{
+	font-family: 'proxima_nova';
+	font-size: 2rem;
+	color:#4398FB;
+	font-weight: bold;
+}
+
+
+.the-project-text{
+	padding: 1rem;
+	font-family: 'proxima_nova';
+	font-weight: normal;
+}
+.highlight-role{
+	padding: 1rem;
+}
+.highlight-role-text{
+	//padding: 1rem;
+	font-family: 'proxima_nova';
+	font-weight: normal;
+	//padding-bottom: 2rem;
+}
+.research h3, .planning h3, .design h3{
+	font-family: 'proxima_nova';
+	font-size: 2rem;
+	color:#4398FB;
+	font-weight: bold;
+}
+
+.research-text, .planning-text, .design-text{
+	//padding: 0 1rem;
+	font-family: 'proxima_nova';
+	font-weight: normal;
+
+}
+.research, .planning, .design{
+	padding:0 1rem;
+	font-family: 'proxima_nova';
+}
+
