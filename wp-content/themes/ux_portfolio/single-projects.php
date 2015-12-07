@@ -52,5 +52,11 @@ get_header(); ?>
 
  	<?php echo wp_get_attachment_image(CFS()->get('axure_image'),'large');?>
 	<?php echo CFS()->get('axure_text'); ?>
+
+	<div class="topButton">
+  	<a href="#" class="scrollup">
+   		<i class="fa fa-angle-up"></i></a>
+	</div>
+
 	<?php get_footer(); ?>
 

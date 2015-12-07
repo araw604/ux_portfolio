@@ -465,3 +465,34 @@ nav li ul a:hover {
 	font-family: 'proxima_nova';
 }
 
+///////go to top page button
+.topButton{
+  background-color:#FF784C;
+  width:45px;
+  height:45px;  
+  border-radius:50%;
+  color:white;
+  font-size:35px;
+}
+.topButton{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.topButton a{
+  color:white;
+}
+
+cd-top.cd-is-visible {
+
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+
+  opacity: .5;
+}
+.topButton{
+	margin: 0 auto;
+}
+///////////////

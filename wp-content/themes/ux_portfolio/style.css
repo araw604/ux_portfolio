@@ -1007,3 +1007,35 @@ nav li ul a:hover {
 .research, .planning, .design {
   padding: 0 1rem;
   font-family: 'proxima_nova'; }
+
+.topButton {
+  background-color: #FF784C;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  color: white;
+  font-size: 35px; }
+
+.topButton {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.topButton a {
+  color: white; }
+
+cd-top.cd-is-visible {
+  visibility: visible;
+  opacity: 1; }
+
+.cd-top.cd-fade-out {
+  opacity: .5; }
+
+.topButton {
+  margin: 0 auto; }
