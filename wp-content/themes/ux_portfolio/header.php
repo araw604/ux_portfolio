@@ -38,8 +38,7 @@
 						                <li><a href="<?php echo home_url('/about/');?>">About</a></li>
 						                <li><a href="<?php echo home_url('/Contact/');?>">Contact</a></li>
 						            </ul>
-						        </li>
-						       
+						        </li>       
 						    </ul>
 			</nav>
 		</div>
@@ -51,6 +50,16 @@
 					<h1 class="site-title screen-reader-text"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 					<p class="site-description"><?php bloginfo( 'description' ); ?></p>
 				</div><!-- .site-branding -->
+		<div class="desktopNavContainer">
+				<a class="dispnone" href="<?php echo home_url();?>">
+					<h2 class="name-logo">
+						<ul>
+							<li>Andee Pittman</li>
+							<li>UX Designer</li>
+						</ul>
+
+					</h2>
+				</a>
 
 				<nav id="site-navigation" class="main-navigation" role="navigation">
 				
@@ -58,7 +67,7 @@
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 					
 				</nav><!-- #site-navigation -->
-
+		</div>
 				<!-- asdadasdad -->
 
 			</header><!-- #masthead -->

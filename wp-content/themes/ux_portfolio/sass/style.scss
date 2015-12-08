@@ -505,8 +505,35 @@ cd-top.cd-is-visible {
 }
 ///////////////break point
 @media screen and (min-width: 375px) {
-	body{
-		color: red;
+	.cf {
+		display: none;
 	}
+	.main-navigation{
+		float: right;
+		width: 60%;
+
+	}
+	.main-navigation a{
+		display: inline-block;
+		width: 8rem;
+
+
+	}
+	.main-navigation ul li a{
+		//font-size: 1rem;
+		background-color: white;
+    	border: 2px #FF784C solid;
+	}
+	.desktopNavContainer{
+		display: flex;
+		justify-content: space-between;
+	}
+	.navParentcontainer{
+		display: none;
+	}
+	.name-logo ul{
+		margin: -20px 0 0 0;
+	}
+	
 }
 
