@@ -26,8 +26,6 @@ get_header(); ?>
 		
 		<section class="pull2projects">
 			
- 		
-         
             <?php
                $projects = portfolio_get_latest_posts( 'projects', 2 );
                if ( ! empty( $projects ) ) :

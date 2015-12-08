@@ -696,7 +696,8 @@ object {
   font-family: 'proxima_nova';
   font-size: 20px;
   color: #E9E9E9;
-  font-weight: lighter; }
+  font-weight: lighter;
+  margin: 0; }
 
 .dispnone {
   text-decoration: none; }
@@ -1008,7 +1009,7 @@ nav li ul a:hover {
   padding: 0 1rem;
   font-family: 'proxima_nova'; }
 
-.topButton {
+.topButton, .leftButton, .rightButton {
   background-color: #FF784C;
   width: 45px;
   height: 45px;
@@ -1016,7 +1017,7 @@ nav li ul a:hover {
   color: white;
   font-size: 35px; }
 
-.topButton {
+.topButton, .leftButton, .rightButton {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -1027,8 +1028,17 @@ nav li ul a:hover {
       -ms-flex-align: center;
           align-items: center; }
 
-.topButton a {
+.topButton a, .leftButton a, .rightButton a {
   color: white; }
+
+.parentButtonContainer {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 3rem; }
 
 cd-top.cd-is-visible {
   visibility: visible;
@@ -1037,5 +1047,14 @@ cd-top.cd-is-visible {
 .cd-top.cd-fade-out {
   opacity: .5; }
 
-.topButton {
-  margin: 0 auto; }
+.navParentcontainer {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+@media screen and (min-width: 375px) {
+  body {
+    color: red; } }

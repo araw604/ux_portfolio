@@ -18,17 +18,31 @@
 	</head>
 
 	<body <?php body_class(); ?>>
+	<div class="navParentcontainer">
+		<a class="dispnone" href="<?php echo home_url();?>">
+			<h2 class="name-logo">
+				<ul>
+					<li>Andee Pittman</li>
+					<li>UX Designer</li>
+				</ul>
 
-	<a class="dispnone" href="<?php echo home_url();?>">
-		<h2 class="name-logo">
-			<ul>
-				<li>Andee Pittman</li>
-				<li>UX Designer</li>
-			</ul>
+			</h2>
+		</a>
 
-		</h2>
-	</a>
-
+			<nav id="mobile-site-navigation" class="mobile-main-navigation" role="navigation">
+						    <ul class="cf">
+						        <li><a class="dropdown" href="#">Menu </a>
+						            <ul>
+						            	<li><a href="<?php echo home_url();?>">Home</a></li>
+						                <li><a href="<?php echo home_url('/projects/');?>">Projects</a></li>
+						                <li><a href="<?php echo home_url('/about/');?>">About</a></li>
+						                <li><a href="<?php echo home_url('/Contact/');?>">Contact</a></li>
+						            </ul>
+						        </li>
+						       
+						    </ul>
+			</nav>
+		</div>
 		<div id="page" class="hfeed site">
 			<a class="skip-link screen-reader-text" href="#content"><?php esc_html( 'Skip to content' ); ?></a>
 
@@ -45,19 +59,7 @@
 					
 				</nav><!-- #site-navigation -->
 
-				<nav id="mobile-site-navigation" class="mobile-main-navigation" role="navigation">
-				    <ul class="cf">
-				        <li><a class="dropdown" href="#">Menu </a>
-				            <ul>
-				            	<li><a href="<?php echo home_url();?>">Home</a></li>
-				                <li><a href="<?php echo home_url('/projects/');?>">Projects</a></li>
-				                <li><a href="<?php echo home_url('/about/');?>">About</a></li>
-				                <li><a href="<?php echo home_url('/Contact/');?>">Contact</a></li>
-				            </ul>
-				            </li>
-				       
-				    </ul>
-				</nav>
+				<!-- asdadasdad -->
 
 			</header><!-- #masthead -->
 

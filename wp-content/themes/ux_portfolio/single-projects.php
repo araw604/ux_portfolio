@@ -53,10 +53,19 @@ get_header(); ?>
  	<?php echo wp_get_attachment_image(CFS()->get('axure_image'),'large');?>
 	<?php echo CFS()->get('axure_text'); ?>
 
-	<div class="topButton">
-  	<a href="#" class="scrollup">
-   		<i class="fa fa-angle-up"></i></a>
+	<div class="parentButtonContainer">
+		<div class="leftButton">
+	  	<a href="#">
+	    <i class="fa fa-angle-left"></i></a>
+		</div>
+		<div class="topButton">
+	  	<a href="#" class="scrollup">
+	   		<i class="fa fa-angle-up"></i></a>
+		</div>
+		<div class="rightButton">
+  		<a href="#">
+    		<i class="fa fa-angle-right"></i></a>
+		</div>
 	</div>
-
 	<?php get_footer(); ?>
 

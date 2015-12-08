@@ -64,7 +64,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 @import "media";
 @import "page-templates";
 
-
+// .name-logo ul
 
 .name-logo ul{
 	list-style: none;
@@ -72,6 +72,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	font-size: 20px;
 	color: #E9E9E9;
 	font-weight: lighter;
+	margin: 0;
 
 }
 .dispnone{
@@ -466,7 +467,7 @@ nav li ul a:hover {
 }
 
 ///////go to top page button
-.topButton{
+.topButton, .leftButton, .rightButton{
   background-color:#FF784C;
   width:45px;
   height:45px;  
@@ -474,13 +475,18 @@ nav li ul a:hover {
   color:white;
   font-size:35px;
 }
-.topButton{
+.topButton, .leftButton, .rightButton{
   display:flex;
   justify-content:center;
   align-items:center;
 }
-.topButton a{
+.topButton a, .leftButton a, .rightButton a{
   color:white;
+}
+.parentButtonContainer{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
 }
 
 cd-top.cd-is-visible {
@@ -492,7 +498,15 @@ cd-top.cd-is-visible {
 
   opacity: .5;
 }
-.topButton{
-	margin: 0 auto;
+
+.navParentcontainer{
+	display: flex;
+  justify-content: space-between;
 }
-///////////////
+///////////////break point
+@media screen and (min-width: 375px) {
+	body{
+		color: red;
+	}
+}
+
