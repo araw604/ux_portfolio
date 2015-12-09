@@ -503,6 +503,9 @@ cd-top.cd-is-visible {
 	display: flex;
   justify-content: space-between;
 }
+.desktopNavContainer{
+	display: none;
+}
 ///////////////break point
 @media screen and (min-width: 375px) {
 	.cf {
@@ -528,12 +531,16 @@ cd-top.cd-is-visible {
 		display: flex;
 		justify-content: space-between;
 	}
-	.navParentcontainer{
-		display: none;
-	}
+	// .andeePittman{
+	// 	display: none;
+	// }
 	.name-logo ul{
 		margin: -20px 0 0 0;
 	}
+	.navParentcontainer{
+		display: none;
+	}
 	
+
 }
 

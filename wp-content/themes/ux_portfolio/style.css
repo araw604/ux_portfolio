@@ -1055,6 +1055,9 @@ cd-top.cd-is-visible {
       -ms-flex-pack: justify;
           justify-content: space-between; }
 
+.desktopNavContainer {
+  display: none; }
+
 @media screen and (min-width: 375px) {
   .cf {
     display: none; }
@@ -1074,7 +1077,7 @@ cd-top.cd-is-visible {
     -webkit-justify-content: space-between;
         -ms-flex-pack: justify;
             justify-content: space-between; }
-  .navParentcontainer {
-    display: none; }
   .name-logo ul {
-    margin: -20px 0 0 0; } }
+    margin: -20px 0 0 0; }
+  .navParentcontainer {
+    display: none; } }
