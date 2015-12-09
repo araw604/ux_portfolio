@@ -1092,4 +1092,22 @@ cd-top.cd-is-visible {
   .site-footer {
     -webkit-order: 3;
         -ms-flex-order: 3;
-            order: 3; } }
+            order: 3; }
+  .imagesFrontPage img {
+    height: 37%;
+    width: 37%;
+    margin: 1.5rem; }
+  .list-parent-container {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around; }
+  .aboutmepic img {
+    height: 40%;
+    width: 40%;
+    margin: 0 30%; }
+  .aboutPageText {
+    text-align: center;
+    margin: 0 30%; } }

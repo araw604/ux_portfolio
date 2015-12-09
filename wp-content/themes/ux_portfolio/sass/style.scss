@@ -567,6 +567,27 @@ cd-top.cd-is-visible {
 		order:3;
 	}
 
+	.imagesFrontPage img{
+		height:37%;
+		width: 37%;
+		margin: 1.5rem;
+	}
+   
+	.list-parent-container{
+		display: flex;
+		justify-content: space-around;
+	}
+	.aboutmepic img{
+	     height: 40%;
+	     width: 40%;
+		 margin: 0 30%;
+	}
+
+	.aboutPageText{
+		//width: 40%;
+		text-align: center;
+		margin: 0 30%;
+	}
 
 }
 

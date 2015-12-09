@@ -31,27 +31,31 @@ get_header(); ?>
 
 		<section class="sksoap">
 			<ul>
-			<li class="skills"> Skills</li>
-			
-				<li>Human-centred design</li>
-				<li>Prototyping</li>
-				<li>HTML & CSS </li>
-				<li>Google Analytics</li>
-				<li>SEO</li>
-				<li>Leadership</li>
-				<li>Agile Software Development</li>
-
-			
-				<li class="software"> Software</li>
-			
-				<li>Sketch</li>
-				<li>Invision</li>
-				<li>Axure </li>
-				<li>Omnigraffle</li>
-				<li>Balsamiq</li>
-				<li>Photoshop</li>
-				<li>Illustrator</li>
-				<li>Atom</li>
+			<div class="list-parent-container">
+				<div class="list-child-1">
+				<li class="skills"> Skills</li>
+				
+					<li>Human-centred design</li>
+					<li>Prototyping</li>
+					<li>HTML & CSS </li>
+					<li>Google Analytics</li>
+					<li>SEO</li>
+					<li>Leadership</li>
+					<li>Agile Software Development</li>
+				</div>
+				<div class="list-child-2">
+					<li class="software"> Software</li>
+				
+					<li>Sketch</li>
+					<li>Invision</li>
+					<li>Axure </li>
+					<li>Omnigraffle</li>
+					<li>Balsamiq</li>
+					<li>Photoshop</li>
+					<li>Illustrator</li>
+					<li>Atom</li>
+				</div>
+			</div>
 			</ul>
 
 		</section>

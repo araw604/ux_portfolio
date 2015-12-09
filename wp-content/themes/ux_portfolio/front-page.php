@@ -69,6 +69,7 @@ get_header(); ?>
 			<div class="imagesFrontPage">
 				<img src="<?php echo get_template_directory_uri(); ?>/images/port_tool_research.png" alt="research"/>
 				<img src="<?php echo get_template_directory_uri(); ?>/images/port_tool_planning.png" alt="planning"/>
+				
 			</div>
 		</section>
 		<div class="learnMore">
