@@ -73,7 +73,10 @@ get_header(); ?>
 		</section>
 		<div class="learnMore">
 			<a href="<?php echo home_url('/about/');?>">
-				<span>learn more</span></a>
+			<div class="seeAllButton">
+				learn more
+			</div>
+			</a>
 		</div>
 
 		</main><!-- #main -->
