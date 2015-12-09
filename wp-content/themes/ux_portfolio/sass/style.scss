@@ -122,6 +122,11 @@ nav a {
          -o-transition: all .25s ease;
             transition: all .25s ease;
 }
+.dropdown:visited{
+	color: #E7F2FF;
+}
+
+
 nav .dropdown:after {
     font-family: FontAwesome;
     content: ' \f107';
