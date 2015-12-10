@@ -55,15 +55,16 @@ get_header(); ?>
 	
 	<div class="parentButtonContainer">
 		<div class="leftButton">
-	  	<a href="#">
+	  	<a href="<?php echo get_permalink( $prev_post->ID ); ?>">
 	    <i class="fa fa-angle-left"></i></a>
 		</div>
 		<div class="topButton">
+
 	  	<a href="#" class="scrollup">
 	   		<i class="fa fa-angle-up"></i></a>
 		</div>
 		<div class="rightButton">
-  		<a href="#">
+		 <a href="<?php echo get_permalink( $next_post->ID ); ?>">
     		<i class="fa fa-angle-right"></i></a>
 		</div>
 	</div>

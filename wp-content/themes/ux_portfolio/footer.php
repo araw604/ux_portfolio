@@ -21,13 +21,13 @@
 				</span>
 				<ul class="planeDownloadlink">
 					<li><i class="fa fa-paper-plane fa-2x"></i></li>
-
-					<a href="http://www.tmz.com/"><li>Download my CV</li></a>
+					<a href="<?php echo ot_get_option( 'resume_upload' ); ?>">
+					 <li>Download my CV</li></a>
 
 				</ul>
 				<footer id="colophon" class="site-footer" role="contentinfo">
 					<div class="site-info">
-						<a href="<?php echo esc_url( 'https://wordpress.org/' ); ?>"><?php printf( esc_html( 'Powered by %s' ), 'araw' ); ?></a>
+						<a href="<?php echo esc_url( 'https://github.com/araw604' ); ?>"><?php printf( esc_html( 'Powered by %s' ), 'ankit' ); ?></a>
 					</div>
 				
 				</footer><!-- #colophon -->
