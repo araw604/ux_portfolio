@@ -85,6 +85,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	font-family: 'campton';
 	display: none;
 }
+.iconsSpan a {
+	text-decoration: none;
+	color: #4a4a4a;
+}
 //////mobile menu////////
 
 
@@ -251,7 +255,7 @@ nav li ul a:hover {
 	font-size: 2rem;
 	font-weight: lighter;
 	//background-color: #D3FFF5;
-	padding-bottom: 3rem;
+	padding: 3rem 0;
 	color: #4398FB;
 	padding-left: 1rem;
 }
@@ -294,6 +298,7 @@ nav li ul a:hover {
 //   align-items: center;
 	margin: 0 auto;
 	text-align: center;
+	width: 45%;
  }
 // .child-logo-title{
 	// padding-right: 100px;
@@ -516,6 +521,14 @@ cd-top.cd-is-visible {
 }
 .desktopNavContainer{
 	display: none;
+}
+.archive-project-heading a {
+	text-decoration: none;
+	font-size: 1.3rem;
+	font-family: 'proxima_nova';
+}
+.archive-project-heading a:visited{
+	color: #4398FB;
 }
 ///////////////break point
 @media screen and (min-width: 375px) {

@@ -708,6 +708,10 @@ object {
   font-family: 'campton';
   display: none; }
 
+.iconsSpan a {
+  text-decoration: none;
+  color: #4a4a4a; }
+
 nav ul {
   -webkit-font-smoothing: antialiased;
   text-shadow: 0 1px 0 #FFF;
@@ -841,7 +845,7 @@ nav li ul a:hover {
   font-family: 'proxima_nova';
   font-size: 2rem;
   font-weight: lighter;
-  padding-bottom: 3rem;
+  padding: 3rem 0;
   color: #4398FB;
   padding-left: 1rem; }
 
@@ -873,7 +877,8 @@ nav li ul a:hover {
 
 .parent-project img {
   margin: 0 auto;
-  text-align: center; }
+  text-align: center;
+  width: 45%; }
 
 .myToolKit {
   text-align: center;
@@ -1053,6 +1058,14 @@ cd-top.cd-is-visible {
 
 .desktopNavContainer {
   display: none; }
+
+.archive-project-heading a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-family: 'proxima_nova'; }
+
+.archive-project-heading a:visited {
+  color: #4398FB; }
 
 @media screen and (min-width: 375px) {
   .cf {

@@ -35,9 +35,9 @@ get_header(); ?>
                
                   <?php foreach( $projects as $post ) : setup_postdata( $post ); ?>
                      <span class="parent-project">
-  						
+  						<a href="<?php the_permalink(); ?>">
                         <?php echo wp_get_attachment_image(CFS()->get( 'featured_image' ), 'large'); ?>
-                        
+                        </a>
                     </span>
                     
                   <?php endforeach; wp_reset_postdata(); ?>

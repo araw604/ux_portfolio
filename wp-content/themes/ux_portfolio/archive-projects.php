@@ -14,11 +14,13 @@ get_header(); ?>
 
 			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
-				
+				<section class="archive-project-heading">
 				<a href="<?php the_permalink(); ?>">
 				<?php echo wp_get_attachment_image(CFS()->get('featured_image'),'large');?>
+				<br>
+				<span><?php echo get_the_title(get_the_ID()); ?></span>
 				</a>
-
+				</section>
 			<?php endwhile; ?>
 
 			<?php the_posts_navigation(); ?>

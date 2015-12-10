@@ -52,7 +52,7 @@ get_header(); ?>
 
  	<?php echo wp_get_attachment_image(CFS()->get('axure_image'),'large');?>
 	<?php echo CFS()->get('axure_text'); ?>
-
+	
 	<div class="parentButtonContainer">
 		<div class="leftButton">
 	  	<a href="#">
