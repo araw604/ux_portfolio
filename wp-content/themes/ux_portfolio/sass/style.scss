@@ -269,6 +269,10 @@ nav li ul a:hover {
 	color: #4398FB;
 	padding-left: 1rem;
 }
+.projects h3{
+	text-align: center;
+}
+
 
 .seeAllButton{
   font-family: 'campton';
@@ -298,7 +302,12 @@ nav li ul a:hover {
 //   align-items: center;
 	margin: 0 auto;
 	text-align: center;
-	width: 45%;
+	width: 55%;
+ }
+ .pull2projects{
+ 	text-align: center;
+ 	
+ 	//margin: 0 29%;
  }
 // .child-logo-title{
 	// padding-right: 100px;
@@ -522,6 +531,11 @@ cd-top.cd-is-visible {
 .desktopNavContainer{
 	display: none;
 }
+.archive-project-heading{
+	text-align: center;
+
+}
+
 .archive-project-heading a {
 	text-decoration: none;
 	font-size: 1.3rem;
@@ -569,9 +583,12 @@ cd-top.cd-is-visible {
 		display: flex;
 		justify-content: space-between;
 		padding-top:2rem;
+		padding-bottom: 2rem;
 
 	}
-
+	.iconsSpan i{
+		margin-bottom: 1rem;
+	}
 	
 	.iconsSpan{
 		order:1;
@@ -601,6 +618,40 @@ cd-top.cd-is-visible {
 		text-align: center;
 		margin: 0 30%;
 	}
+	.project-parent-div, .research-parent-div{
+		margin: 3rem 0 0 0;
+		display: flex;
+		flex-direction: row-reverse;
+	}
+	.project-parent-div img{
+		width: 55%;
+		height: 55%;
+		//padding: 2.5rem;
+	}
+	.highlight-role{
+		padding:0 15rem;
+		margin-bottom: 5rem;
+	}
+	.research-parent-div img{
+		width: 50%;
+		height: 50%;
+		padding: 2.5rem;
+	}
+	.planning-parent-div{
+		margin: 3rem 0 0 0;
+		display: flex;
+	}
+	.planning-parent-div img{
+		width: 50%;
+		height: 50%;
+		padding: 2.5rem;
+	}
+	.design h3{
+		text-align: center;
+	}
+	.design p {
+		padding: 0 8rem;
+	} 
 
 }
 

@@ -18,31 +18,38 @@ get_header(); ?>
 		<span class="proj-heading"><?php echo get_the_title(get_the_ID()); ?></span>
 		<span class="proj-intro-text">	<?php echo CFS()->get('project_intro'); ?></span>
 	</div>
-	<div class="the-project-text">	
-		<p class="theProject">The Project</p>
+	<div class="project-parent-div">	
+		<div class="the-project-text">
+			
+			<p class="theProject">The Project</p>
+			<p><?php echo CFS()->get('the_project'); ?></p>
 
-		<p><?php echo CFS()->get('the_project'); ?></p>
-	</div>
- 	<?php echo wp_get_attachment_image(CFS()->get('highlight_role_image'),'large');?>
+		</div>
+ 		<?php echo wp_get_attachment_image(CFS()->get('highlight_role_image'),'large');?>
+ 	</div>
+
  	<div class="highlight-role">
  		<h3>ROLE HIGHLIGHTS</h3>
 		<p class="highlight-role-text"><?php echo CFS()->get('highlight_role_text'); ?></p>
 	</div>
-
-	<?php echo wp_get_attachment_image(CFS()->get('research_image'),'large');?>
-
-	<div class="research">
- 		<h3>RESEARCH</h3>
-		<p class="research-text"><?php echo CFS()->get('research_text'); ?></p>
-	</div>
 	
-	<?php echo wp_get_attachment_image(CFS()->get('planning_image'),'large');?>
- 	
- 	<div class="planning">
- 		<h3>PLANNING</h3>
- 		<p class="planning-text"><?php echo CFS()->get('planning_text'); ?></p>
- 	</div>
+		
+	<div class="research-parent-div">
+		<?php echo wp_get_attachment_image(CFS()->get('research_image'),'large');?>
 
+		<div class="research">
+	 		<h3>RESEARCH</h3>
+			<p class="research-text"><?php echo CFS()->get('research_text'); ?></p>
+		</div>
+	</div>	
+	<div class="planning-parent-div">
+		<?php echo wp_get_attachment_image(CFS()->get('planning_image'),'large');?>
+ 	
+	 	<div class="planning">
+	 		<h3>PLANNING</h3>
+	 		<p class="planning-text"><?php echo CFS()->get('planning_text'); ?></p>
+	 	</div>
+	</div>
  	<?php echo wp_get_attachment_image(CFS()->get('design_image'),'large');?>
  	
  	<div class="design">
