@@ -1145,8 +1145,9 @@ cd-top.cd-is-visible {
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse; }
   .project-parent-div img {
-    width: 55%;
-    height: 55%; }
+    width: 50%;
+    height: 50%;
+    padding: 2.5rem; }
   .highlight-role {
     padding: 0 15rem;
     margin-bottom: 5rem; }
