@@ -1076,7 +1076,7 @@ cd-top.cd-is-visible {
 .archive-project-heading a:visited {
   color: #4398FB; }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 420px) {
   .cf {
     display: none; }
   .main-navigation {
