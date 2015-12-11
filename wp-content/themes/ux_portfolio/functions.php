@@ -110,6 +110,18 @@ function red_starter_scripts() {
 add_action( 'wp_enqueue_scripts', 'red_starter_scripts' );
 
 /**
+ * redirect to home page
+ */
+function redirect_404 () {
+	if ( is_404() || is_search() ) {
+		wp_redirect( home_url(), 301);
+		exit();
+	}
+}
+add_action( 'template_redirect', 'redirect_404' );
+
+
+/**
  * Custom template tags for this theme.
  */
 require get_template_directory() . '/inc/template-tags.php';
