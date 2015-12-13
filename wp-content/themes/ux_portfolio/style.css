@@ -734,6 +734,7 @@ nav a {
   background: #FF784C;
   color: #E9E9E9;
   display: block;
+  font-family: 'campton';
   font: bold 16px/50px sans-serif;
   padding: 0 25px;
   text-align: center;
@@ -751,7 +752,7 @@ nav .dropdown:hover:after {
   content: ' \f106'; }
 
 nav li:hover a {
-  background: #e9e9e9;
+  background: white;
   border: 2px solid #FF784C;
   color: #FF784C; }
 
@@ -825,7 +826,7 @@ nav li ul a:hover {
   padding-top: 50px; }
 
 .frontPageH2 {
-  font-family: 'proxima_nova';
+  font-family: 'campton';
   font-size: 28px;
   color: #E9E9E9;
   font-weight: normal;
@@ -836,10 +837,15 @@ nav li ul a:hover {
 
 .frontPageP {
   text-align: center;
-  font-family: 'campton';
+  font-family: 'proxima_nova';
   margin: 0 70px;
   padding-bottom: 200px;
   color: #E9E9E9; }
+
+.newtextforkit {
+  font-family: 'proxima_nova';
+  padding: 0 2rem;
+  line-height: 2.5rem; }
 
 .caseStudies {
   font-family: 'proxima_nova';
@@ -1081,7 +1087,8 @@ cd-top.cd-is-visible {
     display: none; }
   .main-navigation {
     float: right;
-    width: 60%; }
+    width: 60%;
+    padding-left: 4rem; }
   .main-navigation a {
     display: inline-block;
     width: 8rem; }
@@ -1096,7 +1103,7 @@ cd-top.cd-is-visible {
         -ms-flex-pack: justify;
             justify-content: space-between; }
   .name-logo ul {
-    margin: -20px 0 0 0; }
+    margin: -20px; }
   .navParentcontainer {
     display: none; }
   .footerContainer {

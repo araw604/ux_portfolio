@@ -69,8 +69,13 @@ get_header(); ?>
 			<div class="imagesFrontPage">
 				<img src="<?php echo get_template_directory_uri(); ?>/images/port_tool_research.png" alt="research"/>
 				<img src="<?php echo get_template_directory_uri(); ?>/images/port_tool_planning.png" alt="planning"/>
-				
+			
 			</div>
+		</section>
+		<section class="newtextforkit">
+			<p>
+				As a fresh graduate of RED Academy, I use a human-centred design process to solve problems and enhance user experience.
+			</p>
 		</section>
 		<div class="learnMore">
 			<a href="<?php echo home_url('/about/');?>">
