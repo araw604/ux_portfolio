@@ -205,6 +205,8 @@ nav li ul a:hover {
 }
 .planeDownloadlink{
 	display: flex;
+	margin: 24px 0 0 0;
+
 
 }
 .planeDownloadlink a, .site-info a{
@@ -215,6 +217,10 @@ nav li ul a:hover {
 .site-info a{
 	text-decoration: none;
 	margin-right: 30px;
+}
+
+.site-info{
+	margin: 20px 0 0 0;
 }
 //blue circle
 .blueCircle{
@@ -381,7 +387,9 @@ nav li ul a:hover {
 	text-align: center;
 	padding: 0 10px;
 }
+.partnership p{
 
+}
 
 .sendButton button{
 	background-color: white;
@@ -426,7 +434,7 @@ nav li ul a:hover {
 .sksoap ul li{
 	list-style: none;
 	text-align: center;
-	font-family: 'campton';
+	font-family: 'proxima_nova';
 	font-weight: lighter;
 }
 
@@ -436,6 +444,8 @@ nav li ul a:hover {
 	padding-top: 3rem;
 	padding-bottom: 1rem;
 }
+
+
 .aboutmepic img{
 	margin-top: 2rem;
 	text-align: center;
@@ -596,6 +606,7 @@ cd-top.cd-is-visible {
 	}
 	.iconsSpan i{
 		margin-bottom: 1rem;
+		margin-right: 20px;
 	}
 	
 	.iconsSpan{

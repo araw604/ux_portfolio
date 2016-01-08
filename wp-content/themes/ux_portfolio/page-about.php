@@ -14,13 +14,13 @@ get_header(); ?>
 				My Philosophy
 			</h2>
 			<p>
-				I believe UX Design is the path to the future. By designing our products for the user and real life, we can create e ciency, sustainability, and happier people.
+				I believe UX Design is the path to the future. By designing our products for the user and real life, we can create efficiency, sustainability, and happier people.
 				<br><br>	
 				At Red Academy I've had the privilege to be taught by some of the industry's greatest, and will graduate this program in December with a wide range of skills and tools to make your user's experiences turn into value.
 			</p>
 		</section>
 		<section class="myToolKit aboutToolKit">
-			<h2> My Toolkit </h2>
+			<h2> MY TOOLKIT </h2>
 			<div class="imagesFrontPage">
 				<img src="<?php echo get_template_directory_uri(); ?>/images/port_tool_research.png" alt="research"/>
 				<img src="<?php echo get_template_directory_uri(); ?>/images/port_tool_planning.png" alt="planning"/>

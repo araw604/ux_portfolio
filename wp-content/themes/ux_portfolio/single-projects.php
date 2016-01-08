@@ -21,7 +21,7 @@ get_header(); ?>
 	<div class="project-parent-div">	
 		<div class="the-project-text">
 			
-			<p class="theProject">The Project</p>
+			<p class="theProject">THE PROJECT</p>
 			<p><?php echo CFS()->get('the_project'); ?></p>
 
 		</div>

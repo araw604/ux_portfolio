@@ -805,7 +805,8 @@ nav li ul a:hover {
 .planeDownloadlink {
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  margin: 24px 0 0 0; }
 
 .planeDownloadlink a, .site-info a {
   color: #4a4a4a;
@@ -814,6 +815,9 @@ nav li ul a:hover {
 .site-info a {
   text-decoration: none;
   margin-right: 30px; }
+
+.site-info {
+  margin: 20px 0 0 0; }
 
 .blueCircle {
   width: 360px;
@@ -961,7 +965,7 @@ nav li ul a:hover {
 .sksoap ul li {
   list-style: none;
   text-align: center;
-  font-family: 'campton';
+  font-family: 'proxima_nova';
   font-weight: lighter; }
 
 .skills, .software {
@@ -1116,7 +1120,8 @@ cd-top.cd-is-visible {
     padding-top: 2rem;
     padding-bottom: 2rem; }
   .iconsSpan i {
-    margin-bottom: 1rem; }
+    margin-bottom: 1rem;
+    margin-right: 20px; }
   .iconsSpan {
     -webkit-order: 1;
         -ms-flex-order: 1;

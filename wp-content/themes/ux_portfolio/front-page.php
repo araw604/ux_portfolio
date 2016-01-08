@@ -65,7 +65,7 @@ get_header(); ?>
 		</section>
 
 		<section class="myToolKit">
-			<h2> My Toolkit </h2>
+			<h2> MY TOOLKIT </h2>
 			<div class="imagesFrontPage">
 				<img src="<?php echo get_template_directory_uri(); ?>/images/port_tool_research.png" alt="research"/>
 				<img src="<?php echo get_template_directory_uri(); ?>/images/port_tool_planning.png" alt="planning"/>
