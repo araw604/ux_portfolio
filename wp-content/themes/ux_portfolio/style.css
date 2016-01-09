@@ -1144,8 +1144,9 @@ nav li ul a:hover {
   .imagesFrontPage {
     text-align: center; }
   .imagesFrontPage img {
-    height: 37%;
-    width: 37%; }
+    height: 50%;
+    width: 50%;
+    margin-right: 5rem; }
   .newtextforkit p {
     padding-left: 3rem; }
   .list-parent-container {
