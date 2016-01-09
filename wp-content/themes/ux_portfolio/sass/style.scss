@@ -205,7 +205,7 @@ nav li ul a:hover {
 }
 .planeDownloadlink{
 	display: flex;
-	margin: 24px 0 0 0;
+	margin: 30px 0 0 45px;
 
 
 }
@@ -331,9 +331,15 @@ nav li ul a:hover {
 ///////////////////
 
 .myToolKit{
-	text-align: center;
+	//text-align: center;
 	padding-bottom: 50px;
+
 }
+.myToolKit h2{
+	margin-left: 20px;
+	color: #FF784C;
+}
+
 .fa { 
 	font-size: 4rem;
 }
@@ -530,9 +536,9 @@ nav li ul a:hover {
   justify-content: space-between;
   margin-bottom: 3rem;
 }
-
-cd-top.cd-is-visible {
-
+/////////////////////
+.cd-top.cd-is-visible {
+////////////////
   visibility: visible;
   opacity: 1;
 }
@@ -561,6 +567,9 @@ cd-top.cd-is-visible {
 .archive-project-heading a:visited{
 	color: #4398FB;
 }
+.fa-3x{
+	margin-right: 20px;
+}
 
 ///////////////break point
 @media screen and (min-width: 375px) {
@@ -587,6 +596,13 @@ cd-top.cd-is-visible {
 		display: flex;
 		justify-content: space-between;
 	}
+	//adding hover to desktop menu
+	.main-navigation ul li a:hover {
+		background-color: #FF784C;
+    	color: white;	
+}
+
+
 	// .andeePittman{
 	// 	display: none;
 	// }
@@ -616,12 +632,23 @@ cd-top.cd-is-visible {
 		order:3;
 	}
 
+	.myToolKit h2{
+		text-align: center;
+	}
+
+	.imagesFrontPage{
+		text-align: center;
+	}
 	.imagesFrontPage img{
 		height:37%;
 		width: 37%;
-		margin: 1.5rem;
+		//margin: 1.5rem 7rem 0 0 ;
+		//text-align: center;
 	}
-   
+   .newtextforkit p{
+   		padding-left: 3rem;
+
+   }
 	.list-parent-container{
 		display: flex;
 		justify-content: space-around;
@@ -671,6 +698,10 @@ cd-top.cd-is-visible {
 	.design p {
 		padding: 0 8rem;
 	} 
+
+	.site-info{
+	margin: 26px 0 0 0;
+}
 
 }
 

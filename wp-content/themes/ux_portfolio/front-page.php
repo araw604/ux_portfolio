@@ -65,10 +65,10 @@ get_header(); ?>
 		</section>
 
 		<section class="myToolKit">
-			<h2> MY TOOLKIT </h2>
+			<h2> WHAT I DO </h2>
 			<div class="imagesFrontPage">
-				<img src="<?php echo get_template_directory_uri(); ?>/images/port_tool_research.png" alt="research"/>
-				<img src="<?php echo get_template_directory_uri(); ?>/images/port_tool_planning.png" alt="planning"/>
+				<img src="<?php echo get_template_directory_uri(); ?>/images/toolkit_home.png" alt="toolkit"/>
+				
 			
 			</div>
 		</section>
@@ -80,7 +80,7 @@ get_header(); ?>
 		<div class="learnMore">
 			<a href="<?php echo home_url('/about/');?>">
 			<div class="seeAllButton">
-				learn more
+				SEE HOW
 			</div>
 			</a>
 		</div>
